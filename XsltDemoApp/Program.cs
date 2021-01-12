@@ -6,7 +6,7 @@ namespace XsltDemoApp
     {
         static void Main()
         {
-            var resultFileName = "D:/result.html";
+            var resultFileName = "result.html";
             var myXslTrans = new XslCompiledTransform();
             myXslTrans.Load("../../style.xsl");
             myXslTrans.Transform("../../books.xml", resultFileName);

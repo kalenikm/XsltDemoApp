@@ -49,37 +49,5 @@
         </td>
       </tr>
     </tbody>
-
-
-
-
-
-    <!--<tr>
-      <td>
-        <xsl:value-of select="author"/>
-      </td>
-      <td>
-        <xsl:value-of select="title"/>
-      </td>
-      <td>
-        <xsl:value-of select="genre"/>
-      </td>
-      <td>
-        <xsl:value-of select="price"/>
-      </td>
-      <td>
-        <xsl:value-of select="publish_date"/>
-      </td>
-      <td>
-        <xsl:value-of select="description"/>
-      </td>
-      <td>
-        <img>
-          <xsl:attribute name="src">
-            <xsl:value-of select="img_url"/>
-          </xsl:attribute>
-        </img>
-      </td>
-    </tr>-->
   </xsl:template>
 </xsl:stylesheet>
